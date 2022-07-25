@@ -1,0 +1,30 @@
+.topicos {
+    width: 100vw;
+    height: 50vh;
+    background: #B0CFDD;
+    color: rgba(255, 255, 255, 0.6) !important;
+    padding: 60px;
+}
+
+.topicos h6 {
+    color: #000;
+}
+.topicos h4 {
+    
+    color: #000;
+}
+
+.topicos li {
+    list-style: none;
+    line-height: 1.5;
+    color: brown;
+}
+
+.rodape {
+    background: #000;
+    height: 5vh;
+}
+
+.rodape p {
+    padding-top: 8px;
+}

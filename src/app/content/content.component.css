@@ -1,0 +1,37 @@
+.wrapper-content {
+    width: 100vw;
+    height: 70vh;
+    z-index: -9999;
+    top: -60px;
+}
+
+.btn_local {
+    width: 40vw;
+    height: 100px;
+    position: absolute;
+	top: 10%;
+    left: 40%;
+    padding: 10px;
+}
+
+.img_registo{
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url('src/assets/images/registo_img.jpg?raw=true') no-repeat;
+	background-size: cover; 
+}
+.btn-registo {
+    position: absolute !important;
+    top: 390px;
+    padding: 20px;
+    font-size: 25px;
+    width: 40%;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid;
+}
