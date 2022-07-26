@@ -17,7 +17,7 @@ export class AuthGuard implements CanActivate {
             // Caso exista token retorna true
             return true;
         } else {
-            // Caso não exista envia para página de cpf não é cadastrado
+            // Caso o token nao exista vai para outra pagina
             this.router.navigate(['/acesso-negado']);
             return false;
         }
